@@ -1,12 +1,4 @@
-// next.config.mjs
-export default {
-    images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: 'i.pravatar.cc',
-        },
-      ],
-    },
-  };
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
+export default nextConfig;
